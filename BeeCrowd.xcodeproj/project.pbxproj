@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77CCF1CD2C4C9B700010AB84 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CCF1CC2C4C9B700010AB84 /* main.swift */; };
+		77CCF1DC2C4CA2090010AB84 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CCF1D92C4CA1590010AB84 /* main.swift */; };
+		77CCF1E12C4CA57C0010AB84 /* basico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CCF1E02C4CA57C0010AB84 /* basico.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,8 @@
 
 /* Begin PBXFileReference section */
 		77CCF1C92C4C9B700010AB84 /* BeeCrowd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BeeCrowd; sourceTree = BUILT_PRODUCTS_DIR; };
-		77CCF1CC2C4C9B700010AB84 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		77CCF1D92C4CA1590010AB84 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		77CCF1E02C4CA57C0010AB84 /* basico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basico.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,18 @@
 		77CCF1CB2C4C9B700010AB84 /* BeeCrowd */ = {
 			isa = PBXGroup;
 			children = (
-				77CCF1CC2C4C9B700010AB84 /* main.swift */,
+				77CCF1D92C4CA1590010AB84 /* main.swift */,
+				77CCF1D42C4CA0AA0010AB84 /* atividades */,
 			);
 			path = BeeCrowd;
+			sourceTree = "<group>";
+		};
+		77CCF1D42C4CA0AA0010AB84 /* atividades */ = {
+			isa = PBXGroup;
+			children = (
+				77CCF1E02C4CA57C0010AB84 /* basico.swift */,
+			);
+			path = atividades;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77CCF1CD2C4C9B700010AB84 /* main.swift in Sources */,
+				77CCF1E12C4CA57C0010AB84 /* basico.swift in Sources */,
+				77CCF1DC2C4CA2090010AB84 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
