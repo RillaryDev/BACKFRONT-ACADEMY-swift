@@ -1,5 +1,4 @@
 exercicio1 ()
-
 calcularArea()
 
 
