@@ -1,4 +1,4 @@
-exercicio1 ()
-calcularArea()
-
+//exercicio1 ()
+//calcularArea()
+soma ()
 
